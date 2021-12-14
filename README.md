@@ -6,9 +6,9 @@
    https://smartcar.com/blog/what-the-react-sagas/
 
 * useEffect hooks func runs after first and all render.
-  ```useEffect(()=>{document.title(`you clicked it ${counter} times`)})```
+  ```useEffect(()=>{document.title(`you clicked it ${parentCounterComponent} times`)})```
 * conditional useEffect func
-  ```useEffect(()=>{document.title(`you clicked it ${counter} times`)},[props name or state])```
+  ```useEffect(()=>{document.title(`you clicked it ${parentCounterComponent} times`)},[props name or state])```
 
 ### UseEffect Hooks
 useEffect after every render of component
