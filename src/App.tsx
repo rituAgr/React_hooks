@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import DataFetch_useState from "./dataFetch_useReducer_vs_useState/DataFetch_useState";
 import DataFetch_useReducer from "./dataFetch_useReducer_vs_useState/DataFetch_useReducer";
+import DocTitle1 from "./customHooks/useDocumentTitleHook/DocTitle1";
+import DocTitle2 from "./customHooks/useDocumentTitleHook/DocTitle2";
 // import TimerContainer from "./useStateHook/TimerContainer";
 // import HookCounter from "./useEffectHook/HookCounter";
 // import DataFetching from "./dataFetch_useEffect/DataFetching";
@@ -24,7 +26,9 @@ function App() {
       {/*  <ObjectCounter/>*/}
       {/*  <ParentCounterComponent/>*/}
       {/*  <DataFetch_useState/>*/}
-        <DataFetch_useReducer/>
+      {/*  <DataFetch_useReducer/>*/}
+        <DocTitle1/>
+        <DocTitle2/>
     </div>
   );
 }

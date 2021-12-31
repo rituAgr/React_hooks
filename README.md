@@ -12,3 +12,12 @@
 
 ### UseEffect Hooks
 useEffect after every render of component
+
+Hooks - 
+1. useState
+2. useEffect
+3. useReducer
+4. useContext
+5. customHooks => JS function whose name starts with 'use'. Custom hooks can call other hooks. Custom hooks are 
+                  used to extract common logic used in many components for reuse. Further, since there wont be any 
+                   jsx returned, the file extension will be .ts 
