@@ -20,9 +20,9 @@ const ComponentA = () => {
     return(
         <div>
             <NameContext.Provider value={nameJson}>
-                <JobContext.Provider value={jobJson}>
+             <JobContext.Provider value={jobJson}>
                     <ComponentB/>
-                </JobContext.Provider>
+             </JobContext.Provider>
             </NameContext.Provider>
 
         </div>

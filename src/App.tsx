@@ -4,6 +4,7 @@ import DataFetch_useState from "./dataFetch_useReducer_vs_useState/DataFetch_use
 import DataFetch_useReducer from "./dataFetch_useReducer_vs_useState/DataFetch_useReducer";
 import DocTitle1 from "./customHooks/useDocumentTitleHook/DocTitle1";
 import DocTitle2 from "./customHooks/useDocumentTitleHook/DocTitle2";
+import ComponentA from "./useContextHook/ComponentA";
 // import TimerContainer from "./useStateHook/TimerContainer";
 // import HookCounter from "./useEffectHook/HookCounter";
 // import DataFetching from "./dataFetch_useEffect/DataFetching";
@@ -21,7 +22,8 @@ function App() {
       {/*<TimerContainer/>*/}
       {/*  <DataFetching/>*/}
       {/*  <DataFetchingById/>*/}
-      {/*  <ComponentA/>*/}
+        {/* eslint-disable-next-line react/jsx-no-undef */}
+        <ComponentA/>
       {/*  <SimpleCounter/>*/}
       {/*  <ObjectCounter/>*/}
       {/*  <ParentCounterComponent/>*/}
